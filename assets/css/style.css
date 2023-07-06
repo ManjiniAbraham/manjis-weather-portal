@@ -1,0 +1,24 @@
+.nav-wrapper{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(24, 24, 128);
+}
+.search-header{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input-field{
+    border: 2px solid;
+    border-radius: 5px;
+        
+}
+.search-btn{
+    padding: 5px;
+    border-radius: 5px;
+    line-height: 15px;
+}
+.btn{
+    width: 100%;
+    background-color: rgb(89, 185, 245);
+}
