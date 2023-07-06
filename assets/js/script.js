@@ -1,4 +1,3 @@
-var APIKey="598dc121f9e0e587ba86da32aa3fa923";
 var searchbtn=$('#searchbtn');
 var searchItems = [];
 var storedSearchItems = localStorage.getItem('searchItems');
