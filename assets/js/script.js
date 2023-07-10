@@ -74,7 +74,7 @@ function getWeather(city) {
     if ($.trim(city)== "") {
       return;
     }
-    var weatherAPI="http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey +"&units=imperial";
+    var weatherAPI="https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey +"&units=imperial";
     
 
     var findCity = weatherData.findIndex(index =>index.place.toLowerCase() === city.toLowerCase());
