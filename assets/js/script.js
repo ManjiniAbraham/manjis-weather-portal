@@ -216,4 +216,6 @@ function displayWeatherInfo(city) {
     
     forecastDiv.append(htmlstring);
   }
+
+
 };
